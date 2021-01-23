@@ -64,7 +64,7 @@
 		int rowPerPage = 10;
 		int beginRow = (currentPage-1)*rowPerPage;
 		Class.forName("org.mariadb.jdbc.Driver");
-		Connection conn = DriverManager.getConnection("jdbc:mariadb://localhost:3307/employees","root","java1004");
+		Connection conn = DriverManager.getConnection("jdbc:mariadb://aonaru.kro.kr:3306/employees", "root","5192cjjh");
 		String sql1 = "";
 		String sql2 = "";
 		PreparedStatement stmt1 = null;

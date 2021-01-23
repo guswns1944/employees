@@ -60,7 +60,7 @@
 		//1 mariadb(sw)를 사용할 수 있게
 		Class.forName("org.mariadb.jdbc.Driver");
 		//2. mariadb 접속(주소+포트번호+db이름, db계정, db계정암호)
-		Connection conn = DriverManager.getConnection("jdbc:mariadb://localhost:3307/employees", "root","java1004");
+		Connection conn = DriverManager.getConnection("jdbc:mariadb://aonaru.kro.kr:3306/employees", "root","5192cjjh");
 		//System.out.println(conn+"<-conn");
 		
 		//동적쿼리

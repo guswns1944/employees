@@ -54,7 +54,7 @@
 		int rowPerPage = 10;
 		//db연결
 		Class.forName("org.mariadb.jdbc.Driver");
-		Connection conn = DriverManager.getConnection("jdbc:mariadb://localhost:3307/employees","root","java1004");
+		Connection conn = DriverManager.getConnection("jdbc:mariadb://aonaru.kro.kr:3306/employees", "root","5192cjjh");
 		String sql = "select dept_no, emp_no, from_date, to_date from dept_manager order by dept_no limit ?,?";
 		String sql2 = "select count(*) as cnt from dept_manager";
 		PreparedStatement stmt = conn.prepareStatement(sql);
